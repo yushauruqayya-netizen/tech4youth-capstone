@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding-top: 2.5rem;
+  padding-top: 3rem;
 }
 
 .auth-card {
@@ -29,20 +29,20 @@
 .auth-subtitle {
   font-size: 0.95rem;
   color: #64748b;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .auth-form {
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
+  gap: 1.25rem;
   text-align: left;
 }
 
 .form-group {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
+  gap: 0.5rem;
 }
 
 .form-group label {

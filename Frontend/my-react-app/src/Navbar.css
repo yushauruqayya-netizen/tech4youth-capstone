@@ -48,6 +48,37 @@
   color: #4f46e5;
 }
 
+/* Logged-in User Badge & Logout Button */
+.nav-user-badge {
+  color: #4f46e5;
+  background-color: #eef2ff;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.nav-logout-btn {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border: none;
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.nav-logout-btn:hover {
+  background-color: #4338ca;
+}
+
+.mobile-logout {
+  width: fit-content;
+}
+
 /* Mobile Icon (hidden on desktop) */
 .mobile-menu-icon {
   display: none;
